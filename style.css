@@ -115,14 +115,14 @@ button:hover{
 
 @media (max-width: 481px){
     .code_snippets{
-        width: 365px;
+        width: 350px;
         height: 320px;
     }
     .comment{
         font-size: 16px;
     }
     .code_Mirror{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
 
