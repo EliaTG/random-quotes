@@ -68,6 +68,7 @@ section.container{
     margin: 10px auto;
     align-items: center;
     color: white;
+    font-size: 1rem;
 }
 .code_yellow{
     color: #E6cd69;
@@ -86,7 +87,7 @@ section.container{
 color: #41535b;
 font-family: monospace;
 font-weight: 500;
-font-size: 14px;
+font-size: 0.9rem;
 }
 .button{
     display: flex;
@@ -110,4 +111,24 @@ button{
 button:hover{
    background-color:  #4857e4;
    transition-duration: 0.4s;
+}
+
+@media (max-width: 481px){
+    .code_snippets{
+        width: 340px;
+        height: 320px;
+    }
+    .comment{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .code_snippets{
+        width: 450px;
+        height: 350px;
+    }
+    .comment{
+        font-size: 17px;
+    }
 }
